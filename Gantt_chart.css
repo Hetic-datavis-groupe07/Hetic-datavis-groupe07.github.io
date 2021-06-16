@@ -1,0 +1,1136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+body {
+    background-color: #0E0E10;
+    font-family: Montserrat;
+    margin: 90;
+    padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+button.event{
+  margin-top: 50px;
+  background: #A970FF;
+  color: #CBCBCB;
+  font-size: 20px;
+  width: 189px;
+  height: 86px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  border-style: none;
+  cursor: pointer;
+  box-shadow: none;
+  font-family: Montserrat;
+}
+
+.desc-v2 > h1{
+  color: #9E9E9E;
+  font-size: 2rem;
+}
+.desc-v2 > h2{
+  color: #37373E;
+  font-size: 1rem;
+
+}
+.desc-v2 > p{
+  color: #EBEBEB;
+  width: 70rem;
+  line-height: 2rem;
+  margin-top: 5em;
+}
+.view-event{
+  color: #37373E;
+  font-size: 1rem;
+  margin-top: 10em;
+}
+.wrapper{
+  display: flex;
+  grid-area: 4 / 11 / 5 / 12;
+  flex-direction: column;
+}
+.wrapper2{
+  display: flex;
+  grid-area: 6 / 2 / 7 / 3;
+  flex-direction: column;
+}
+
+.Gantt{
+
+    max-width: 75%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    border-bottom: 2px solid #D2D2D2;
+    border-left: 2px solid #D2D2D2;
+}
+
+  #c1k { grid-column: 2}
+  #c10k { grid-column: 3}
+  #c20k { grid-column: 4}
+  #c30k { grid-column: 5}
+  #c40k { grid-column: 6}
+  #c50k { grid-column: 7}
+  #c60k { grid-column: 8}
+  #c70k { grid-column: 9}
+  #c80k { grid-column: 10}
+  #c90k { grid-column: 11}
+
+  #r1 { grid-row: 2}
+  #r2 { grid-row: 3}
+  #r3 { grid-row: 4}
+  #r4 { grid-row: 5}
+  #r5 { grid-row: 6}
+  #r6 { grid-row: 7}
+  #r7 { grid-row: 8}
+  #r8 { grid-row: 9}
+  
+
+  /* dividers */
+
+    .columns {
+	border-left: 0.1px solid #D2D2D2; 
+	grid-row: 2 / 10;
+    }
+
+    .rows{
+        /* border-bottom: 0.1px solid #D2D2D2; */
+        grid-column: 2/12;
+    }
+
+    .hcolumns{
+	text-align: center;
+	grid-row: 1;
+    color: #D2D2D2;
+    }
+
+    .hrows{
+    text-align: center;
+	grid-column: 1;
+    color: #A970FF;
+    ;
+    }
+  
+  #h1k { grid-column: 2}
+  #h10K { grid-column: 3}
+  #h20K { grid-column: 4}
+  #h30k { grid-column: 5}
+  #h40k { grid-column: 6}
+  #h50k { grid-column: 7}
+  #h60k { grid-column: 8}
+  #h70k { grid-column: 9}
+  #h80k { grid-column: 10}
+  #h90k { grid-column: 11}
+    
+
+  #hr1 { grid-row: 2}
+  #hr2 { grid-row: 3}
+  #hr3 { grid-row: 4}
+  #hr4 { grid-row: 5}
+  #hr5 { grid-row: 6}
+  #hr6 { grid-row: 7}
+  #hr7 { grid-row: 8}
+  #hr8 { grid-row: 9}
+
+.Gantt .modal-trigger{
+    background: rgba(169, 112, 255, 0.5);
+    border: 0.5px solid #C9C9C9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 60%;
+    width: 90%;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    color: #D2D2D2;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 5%;
+    /* padding: 10%; */
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+}
+
+span{display: flex;}
+#event1{
+    grid-area: 3 / 11 / 4 / 12 ;
+    
+}
+#event2{
+    grid-area: 3 / 8 / 4 / 9 ;
+    
+}
+#event3{
+    grid-area: 3 / 2 / 4 / 3 ;
+    
+}
+#event4{
+    grid-area: 2 / 11 / 3 / 12 ;
+    
+}
+#event5{
+    grid-area: 2 / 3 / 3 / 4 ;
+    
+}
+#event6{
+    grid-area: 2 / 2 / 3 / 3 ;
+    
+}
+#event7{
+    grid-area: 5 / 10 / 6 / 11 ;
+    
+}
+#event8{
+    grid-area: 5 / 6 / 6 / 7 ;
+    
+}
+#event9{
+    grid-area: 5 / 11 / 6 / 12 ;
+    
+}
+#event10{
+    grid-area: 4 / 11 / 5 / 12 ;
+    
+}
+#event11{
+    grid-area: 4 / 11 / 5 / 12 ;
+  
+}
+#event12{
+    grid-area: 4 / 11 / 5 / 12 ;
+  
+}
+#event13{
+    grid-area: 6 / 2 / 7 / 3 ;
+  
+}
+#event14{
+    grid-area: 6 / 11 / 7 / 12 ;
+  
+}
+#event15{
+    grid-area: 6 / 7 / 7 / 8 ;
+  
+}
+#event16{
+    grid-area: 6 / 2 / 7 / 3 ;
+  
+}
+#event17{
+    grid-area: 6 / 2 / 7 / 3 ;
+  
+}
+#event18{
+    grid-area: 8 / 4 / 9 / 5 ;
+  
+}
+#event19{
+    grid-area: 8 / 5 / 9 / 6 ;
+  
+}
+#event20{
+    grid-area: 8 / 3 / 9 / 4 ;
+  
+}
+#event21{
+    grid-area: 8 / 2 / 9 / 3 ;
+  
+}
+
+
+
+/* A PARTIR D'ICI */
+#event22{
+  grid-area: 7 / 9 / 8 / 9 ;
+
+}
+#event23{
+  grid-area:  7 / 3 / 8 / 3 ;
+
+}
+#event24{
+  grid-area: 7 / 12 / 8 / 11 ;
+
+}
+#event25{
+  grid-area: 9 / 12 / 9 / 11;
+
+}
+#event26{
+  grid-area: 9 / 5 / 9 / 4 ;
+
+}
+#event27{
+  grid-area: 9 / 6 / 9 / 5 ;
+
+}
+
+
+/*modales*/
+*, *::after, *::before{
+    box-sizing: border-box;
+  }
+  .modal-trigger{
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  
+  .modal{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  
+  }
+  .modal:target{
+    display:table;
+  }
+
+  .modal-dialog{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  
+  .modal-content{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+ 
+  .modal-header{
+    color:rgba(255, 255, 255, 0.8);
+    padding:1rem;
+    position:relative;
+  }
+  .modal-titre{
+    margin:0;
+    color: #5F3B96;
+    
+  }
+  .modal-croix{
+    color:#fff;
+    text-decoration: none;
+    position:absolute;
+    top:1rem;
+    right:2rem;
+  }
+  .modal-texte{
+    margin: 2em 0 2em;
+  }
+  .container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "intitule1 intitule2 intitule3 intitule4"
+      "chiffre1 chiffre2 chiffre3 chiffre4";
+  
+      margin-left: 2rem;
+  
+      
+  }
+  .intitule1 { 
+      grid-area: intitule1; 
+      display: block;
+      margin: auto;
+      color: #5F3B96;
+ 
+  }
+  .intitule2 { 
+      grid-area: intitule2; 
+      display: block;
+      margin: auto;
+      color: #5F3B96;
+      
+  }
+  .intitule3 { 
+      grid-area: intitule3; 
+      display: block;
+      margin: auto;
+      color: #5F3B96;
+  }
+  .intitule4 { 
+      grid-area: intitule4; 
+      display: block;
+      margin: auto;
+      color: #5F3B96;
+  }
+  .chiffre1 { 
+      grid-area: chiffre1;
+      display: block;
+      margin: auto;
+      font-weight: bold;
+  }
+  
+  .chiffre2 { 
+      grid-area: chiffre2; 
+      display: block;
+      margin: auto;
+      font-weight: bold;
+  }
+  .chiffre4 { 
+      grid-area: chiffre4; 
+      display: block;
+      margin: auto;
+      font-weight: bold;
+  }
+  .chiffre3 { 
+      grid-area: chiffre3; 
+      display: block;
+      margin: 1rem auto;
+      font-weight: bold;
+      
+  }
+  
+  .modal-texte{
+    padding:1rem;
+    margin-bottom: 1rem;
+    line-height:1.5;
+    color: #EBEBEB;
+  
+  }
+  .intitule{
+      margin-left: 1rem;
+  }
+  
+  
+  @keyframes slideUp{
+    from{
+      opacity:0;
+      bottom: -200px;
+    }
+    to{
+      opacity:1;
+      bottom:0;
+    }
+  }
+
+
+
+  .modal2{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog2{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content2{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal2:target{
+    display:table;
+  }
+  
+  
+  .modal3{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog3{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content3{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal3:target{
+    display:table;
+  }
+  .modal4{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog4{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content4{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal4:target{
+    display:table;
+  }
+  .modal5{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog5{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content5{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal5:target{
+    display:table;
+  }
+  .modal6{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog6{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content6{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal6:target{
+    display:table;
+  }
+  .modal7{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog7{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content7{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal7:target{
+    display:table;
+  }
+  .modal8{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog8{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content8{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal8:target{
+    display:table;
+  }
+  .modal9{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog9{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content9{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal9:target{
+    display:table;
+  }
+  .modal10{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog10{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content10{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal10:target{
+    display:table;
+  }
+  .modal11{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog11{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content11{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal11:target{
+    display:table;
+  }
+  .modal12{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog12{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content12{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal12:target{
+    display:table;
+  }
+  .modal13{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog13{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content13{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal13:target{
+    display:table;
+  }
+  .modal14{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog14{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content14{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal14:target{
+    display:table;
+  }
+  .modal15{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog15{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content15{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal15:target{
+    display:table;
+  }
+  .modal16{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog16{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content16{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal16:target{
+    display:table;
+  }
+  .modal17{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog17{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content17{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal17:target{
+    display:table;
+  }
+  .modal18{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog18{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content18{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal18:target{
+    display:table;
+  }
+  .modal19{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog19{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content19{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal19:target{
+    display:table;
+  }
+  .modal20{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog20{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content20{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal20:target{
+    display:table;
+  }
+  .modal21{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog21{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content21{
+    background:rgb(255, 255, 255);
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal21:target{
+    display:table;
+  }
+
+  .modal22{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog22{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content22{
+    background:white;
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal22:target{
+    display:table;
+  }
+
+  .modal23{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog23{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content23{
+    background:white;
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal23:target{
+    display:table;
+  }
+
+  .modal24{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog24{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content24{
+    background:white;
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal24:target{
+    display:table;
+  }
+
+  .modal25{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog25{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content25{
+    background:white;
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal25:target{
+    display:table;
+  }
+
+  .modal26{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog26{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content26{
+    background:white;
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal26:target{
+    display:table;
+  }
+
+  .modal27{
+    display:none;
+    background:rgba(0, 0, 0, .8);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+  }
+  .modal-dialog27{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  .modal-content27{
+    background:white;
+    width:30%;
+    min-width:300px;
+    margin:auto;
+    position:relative;
+    background-color: #A970FF;
+    border-radius: 10px;
+    opacity: 80%;
+    animation: slideUp 0.3s ease-in-out;
+  }
+  .modal27:target{
+    display:table;
+  }

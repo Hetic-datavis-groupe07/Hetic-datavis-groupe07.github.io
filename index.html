@@ -1,0 +1,150 @@
+<html>
+   <head>
+        <title>Twitch une platforme qui a sû tirer partie d'une pandémie</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="acceuil.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+  <!-- Resources -->
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+  
+  <!-- Chart code -->
+  
+  
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+        
+         <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+        
+        
+   </head>
+   
+   <body onload="init016();stat2016();">
+      <main>
+      
+      <section>
+         <div class="emote" id="particles-js"></div>
+         <div class="emote" id="particles-js1"></div>
+         <div class="emote" id="particles-js2"></div>
+         <div class="emote" id="particles-js3"></div>
+         <div class="emote" id="particles-js4"></div>
+         <script src="particles.js"></script>
+         <script src="app.js"></script>
+         <script src="app1.js"></script>
+         <script src="app2.js"></script>
+         <script src="app3.js"></script>
+         <script src="app4.js"></script>
+      
+      
+         <div id="filter"></div>
+      
+      
+         <div class="flex-container">
+            <h2>TWITCH</h2>
+            <h1>Une plateforme qui a sû tirer partie d'une pandémie</h1>
+            <button class="acceuil" type="button" ><a href='#map'>Streamez</a></button>
+         </div>
+      </section>
+        <section class="v1" id="map" >
+            <h1 class="titre">Évolution de Twitch</h1>
+            <div id="carte">
+                <div id="mapid2016"></div>
+                <div id="mapid2017"></div>
+                <div id="mapid2018"></div>
+                <div id="mapid2019"></div>
+                <div id="mapid2020"></div>
+                <div id="mapid2021"></div>
+            </div>
+            <div class="buttonYear">
+                <button type="button" onclick = "init016(); stat2016();">2016</button>
+                <button type="button" onclick = "init017(); stat2017();">2017</button>
+                <button type="button" onclick = "init018(); stat2018();">2018</button>
+                <button type="button" onclick = "init019(); stat2019();">2019</button>
+                <button type="button" onclick = "init020(); stat2020();">2020</button>
+                <button type="button" onclick = "init021(); stat2021();">2021</button>
+            </div>
+            <div id="show">
+            </div>   
+            <div class="enquelqueschiffres"><p class="chiffre">En quelques chiffres, twitch c'est :</p>
+               <div class="container">
+                  <div class="intitule1">Record de viwers sur la plateforme</div>
+                  <div class="intitule2">Heures streamés en Jan 2021</div>
+                  <div class="intitule3">Chaînes en 2021</div>
+                  <div class="intitule4">18-35 ans</div>
+                  <div class="chiffre1">6 577 002</div>
+                  <div class="chiffre2">88 697 867</div>
+                  <div class="chiffre4">233 935</div>
+                  <div class="chiffre3">55%</div>
+           </div>
+            </div>
+                <p class="Texte">La plateforme de streaming vidéo en direct au contenu de “niche”, explose et fait de l’ombre à ses concurrents. Depuis sa création en 2011, Twitch est principalement utilisée par et pour des “gamers”; ce qui devient de plus en plus faux notamment depuis la crise sanitaire. La plateforme bat tous ses records, attire un nouveau public, l’attention des autres médias et aussi des marques.
+                Des streamers divertissent des viewers du monde entier et se réunissent parfois lors d'événements, ceux-ci se sont multiplié lors du confinement et sont même devenu essentiels durant cette période. 
+                </p>
+                <a href="Gantt_chart (1).html"><button class="event">Voir les événements</button></a>
+
+            </div>
+        </section>
+        <section class="v3">
+         <div class="desc-v3">
+            <h1>Un avenir pour la plateforme</h1>
+            <h2>Évolution et concurrence</h2>
+            <p>Ces dernières années, il est possible de tomber sur un live de <strong> Samuel Etienne</strong> ou encore de <strong> Manu Ferrara</strong>, deux personnalités totalement différentes, 
+                c’est ce qui explique le nombre de viewers qui explose : sur Twitch on trouve de tout même des cours (IAmSeanRed ;) ). La plateforme fait de plus en plus d’ombre à ses concurrents </p>
+        </div>
+       
+        <div>
+            <p class="fin-des-medias">Avec l’arrivée de personnalités/émissions de la TV, de youtube, musiciens... la question de l’essouflement des autres médias se pose, cela peut s’expliquer par l’age des consommateurs qui ne se retrouvent plus dans les contenus “classiques”, en tout cas en france .
+            </p>
+        </div>
+     
+        <div class="conso">
+            <span class="conso-france">Médias le plus utilisé en fonction de l’age en france</span>
+            <div class="ages">
+               <span class="age1">13-20 ans</span>
+               <span class="age2">20-40 ans</span>
+               <span class="age3">40-70 ans et plus</span>
+               <div id="chartdiv"></div>
+               <div id="chartdiv2"></div>
+               <div id="chartdiv3"></div>
+               
+          </div>
+        </div>
+        <p class="conclusion">La plateforme s’est donc ouverte à un nouveau public, le contenu y est varié,
+            des streamers et viewers de tous milieux s’y confondent : Twitch doit donc opérer des changements dans sa politique notamment. 
+            
+            <br><br>Depuis quelques mois, c’est les DMCA ( loi concernant les droits d'auteur qui vise à la suppression de contenus suspectés de violer ces droits) qui empêchent les streamers de mettre des musiques non libres de droits. Les protestations s’accumulent et Twitch réfléchit à y mettre fin.
+            Nous avons pu avoir l’avis de streamers à ce sujet : 
+            
+            <br> <br><strong>ChapGG</strong> : “C'était une anomalie que ça ne soit pas déjà le cas, vu que la plateforme grandit, les ayants droits mettent leur nez pour récupérer l'argent qui leur est logiquement dû. 
+            
+            <br><br><strong>Martav</strong> : “ Je comprends mais je n’y prête pas attention, si ils laissent ce système tant mieux sinon tant pis on écoutera autre chose (musiques libres de droits . Ce n’est pas qui fait le contenu donc ce n’est pas important . 
+            
+            <br> <br>Les contenus proposées étant donc de plus en plus diversifiés, un besoin de catégoriser les utilisateurs se fait ressentir chez Twitch : l’apparition de “tags inclusifs” permettrai de mieux trouver son bonheur 
+            L’avis des streamers : 
+            
+            <br><br><strong>Anthosaure</strong>  : “ Plus chaque stream sera catégorisé plus on trouvera son bonheur, c’est une bonne chose. 
+            
+            <br><br><strong>Martav</strong>  : “Pour moi, c’est une mauvaise chose, c’est bien que tout le monde puisse s’y retrouver mais on donne raison à ceux qui se différencient et s'isolent et au lieu de rassembler. Cela finit par diviser plus qu’autre chose. <br>
+            
+            
+            <br> <br>Ces changements laissent perplexes les utilisateurs, il devient légitime de se demander si en cherchant à “lisser” son image, Twitch ne perd pas cette liberté qui à fait, en quelque sorte, fait son succès.
+            
+            </p>
+        </section>
+        
+      </main>
+      <footer> "Ce site a été réalisé à des fins pédagogiques dans le cadre du cursus Grande Ecole de l’école HETIC. Les 
+        contenus et données présentés n'ont pas fait l'objet d'une demande de droit d'utilisation. Ce site ne sera en 
+        aucun cas exploité à des fins commerciales”</footer>
+   </body>
+   <script src="main.js"></script>
+</html>
