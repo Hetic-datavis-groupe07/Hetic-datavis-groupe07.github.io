@@ -1372,7 +1372,7 @@ function init021(){
 
 function stat2016(str) {
     if (str == "") {
-        document.getElementById("show").innerHTML = "";
+        document.getElementById("").innerHTML = "";
         return;
       } else {
         var xmlhttp = new XMLHttpRequest();
